@@ -1,0 +1,75 @@
+/* CSS Styles for App Component */
+body {
+  background-color: #F5F5F9; /* Set the background color to #F5F5F9 */
+  color: black; /* Set black text color */
+  font-family: Arial, sans-serif; /* Specify a font-family */
+}
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between categories as needed */
+  background-color: transparent; /* Set the background color of the container to transparent */
+}
+
+.category {
+  padding: 10px;
+  width: 300px; /* Adjust the width as needed */
+  background-color: transparent; /* Set the background color of the categories to transparent */
+  border: none; /* Remove the border */
+  border-radius: 5px;
+  font-size: 14px; /* Adjust the font size as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a cleaner look */
+}
+
+/* Styles for individual messages */
+.ticket {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: white; /* Set white background for message boxes */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the "Display Options" button */
+button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Styles for the select elements */
+select {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Styles for the tables and lists */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Additional styles for the page background color */
+.page-background {
+  background-color: #F5F5F9; /* Set the background color to #F5F5F9 */
+}
+
